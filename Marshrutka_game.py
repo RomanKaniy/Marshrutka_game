@@ -219,8 +219,8 @@ if player == '1':
 elif player == '2':
 	Passenger()
 elif player == '3':
-	print('Очiкуй незабаром')
-	player = input('Вибрати гравця: водiй - 1, пасажир - 2, бабця - 3 > ')
+	print('Очiкуй незабаром!')
+	player = input('\nВибрати iншого гравця: водiй - 1, пасажир - 2 > ')
 	if player == '1':
 		Rider()
 	elif player == '2':
